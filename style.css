@@ -1,0 +1,168 @@
+body {
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.menu__background {
+    height: 75px;
+    background: #222222;
+}
+
+.menu__icons__left {
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    padding-right: 41px;
+}
+
+.menu__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__icons__right {
+    align-items: center;
+}
+
+.icons__right {
+    margin-right: 33px;
+}
+
+.header {
+    height: 764px;
+    background-color: #F1E4E6;
+    display: flex;
+}
+
+/* .man__photo {
+    margin-right: 64px;
+} */
+
+.the__brand {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.text__mini {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.pink__text {
+    color: #F16D7F;
+}
+
+.pink__line {
+    width: 12px;
+    height: 92px;
+    background-color: #F16D7F;
+    margin-right: 16px;
+}
+
+.top__info {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 290px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+/*Блок топ закончен*/
+
+.card-block-women,
+.card-block-man,
+.card-block-kid,
+.big-horisont__card{
+    position: relative;
+}
+.img-women-text{
+    position: absolute;
+    top: 105px; 
+    left: 103px;
+    box-sizing: border-box;
+}
+.img-man-text{
+    position: absolute;
+    top: 105px; 
+    left: 125px;
+    box-sizing: border-box;
+}
+.img-kid-text{
+    position: absolute;
+    top: 105px; 
+    left: 123px;
+    box-sizing: border-box;
+}
+.img-horisont-text{
+    position: absolute;
+    top: 65px; 
+    left: 491px;
+    box-sizing: border-box;
+}
+.woman-text,
+.man-text,
+.kid-text,
+.horisont-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.woman-pink-text,
+.man-pink-text,
+.kid-pink-text,
+.horisont-pink-text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28,8px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.mini-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.big-horisont__card {
+    margin-top: 30px;
+}
+
+/*блок карточки закончен*/
+.products {
+    margin-top: 96px;
+}
+
+.product__heading {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.product__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+}
